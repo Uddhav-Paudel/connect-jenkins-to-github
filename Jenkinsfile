@@ -1,4 +1,4 @@
-pipeline {
+pipeline { 
     agent {label 'linux'}
     tools {
         maven 'Maven-3.8.4'
